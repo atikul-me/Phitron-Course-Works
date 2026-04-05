@@ -1,0 +1,11 @@
+In C programming Language if we normally need to use or take any intiger number , we use it by using Intiger datatype and by int command.
+
+But this int data type can use 4 bytes or 32 bits and almost 10^9 numbers.
+
+So if we need to use more than 4 byte space and much more value than 10^9, we have to use another data type syntax in C programming Language and that is called 
+
+"long long int"
+
+Format Specifier : %lld
+
+This will use 8 byte and can store almost 10^18 intiger values and work , calculates etc with those.
