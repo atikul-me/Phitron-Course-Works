@@ -1,0 +1,15 @@
+Logical Operators
+
+&& (Logical AND)
+
+// It needs both contidions or calculations true to be happy. Otherwise it will give result as false.
+
+
+|| (Logical OR)
+
+// It needs only one True, like either Burger neither Pizza can make me happy today. Unless getting 0 true statement it will show True.
+
+
+! (Logical NOT)
+
+// Can make the statement logic reverse. True can be false and false can be true.

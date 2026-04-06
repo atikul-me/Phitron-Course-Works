@@ -1,0 +1,15 @@
+Relational Operators : 
+
+< (Less than)
+Ex : int a = 4, b = 5; So a < b
+
+<= (Less or equal than)
+Ex : if a = 4 and also 5 , b = 5; a <= b
+
+> (Greater than) and >= (Greater than equal) are same as less than and less than equal
+
+== (equals to)
+Ex : a = 5 , b = 5; a == b
+
+!= (Not equals to)
+Ex : a = 6 , b = 5; a != b
