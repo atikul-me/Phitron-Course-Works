@@ -1,4 +1,6 @@
-## Solution 01
+// Problem Link : https://judge.phitron.io/topics/cm5z7wa3u0007p301xbzdqkuk/cm82x5rnr003er00114f9qwvx?language=c_103
+
+// Solution 01
 
 #include <stdio.h>
 int main()
@@ -18,7 +20,7 @@ int main()
 	return 0;
 	}
 
-## Solution 2
+// Solution 2
 
 #include <stdio.h>
 int main()
