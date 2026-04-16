@@ -1,0 +1,24 @@
+// Problem Link : https://www.hackerrank.com/contests/assignment-02-a-introduction-to-c-programming-a-batch-09/challenges/is-it-a-challenge/problem
+
+#include <stdio.h>
+int main()
+{
+    int N, i;
+    scanf("%d", &N);
+
+    if(N>0)
+    {
+        for (i=1;i<=N;i++)
+        {
+            printf("%d ", i);
+        }
+    }
+    else 
+    {
+        for(i=N;i<=0;i++)
+        {
+            printf("%d ", i);
+        }
+    }
+    return 0;
+}
