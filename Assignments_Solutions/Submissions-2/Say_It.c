@@ -1,5 +1,4 @@
-// Problem Statement
-/* You will be given a positive integer N. You need to print "I Want More Assignments" N times without the quotation mark. Also print from 1 to N with it. See the sample input output for more clarifications. */
+// Problem Link : https://www.hackerrank.com/contests/assignment-02-a-introduction-to-c-programming-a-batch-09/challenges/say-it
 
 #include <stdio.h>
 int main()
