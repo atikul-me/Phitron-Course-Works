@@ -9,11 +9,11 @@ int main()
     {
         scanf("%d", &a[i]);
     }
-    int fre[6] = {0};
+    int fre[6] = {0}; // One zero and all other will be zero too
     for (int i=0; i<n; i++)
     {
-        int val = a[i];
-        fre[val]++;
+        int val = a[i]; // Taking i th index value to val intiger 
+        fre[val]++; // Taking and increasing the value of the specific number
     }
     for (int i=0; i<6; i++)
     {
