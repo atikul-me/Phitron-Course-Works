@@ -13,8 +13,8 @@ int main()
 		}
 		for(j=1;j<=value;j++) // Value Printing
 		{
-			printf("%d ",j);
-		}
+			printf("%d ",j); // Space for Pyramid
+		}                    // Non space for right allign
 		printf("\n");
 		value++;  // value increasing in value+1 rate
 		space--; // Space Decreasing each line
