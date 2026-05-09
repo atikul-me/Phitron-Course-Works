@@ -1,18 +1,14 @@
 #include <stdio.h>
-int main()
+void fun(int* x) // catching the address by pointer x variable
 {
-    #include <stdio.h>
-void fun(int val)
-{
-    int x = 20;
-    printf("Fun function X address : %p\n",&x);
+    *x = 20; // going back to x and change the value to 20
+
 }
 int main()
 {
     int x = 10;
-    fun(x);
-    printf("Main Function X address : %p\n",&x);
-    return 0;
-}
+    fun(&x); // throwing x address to fun function
+
+    printf("X : %d\n",x); // all done and print, x = 20
     return 0;
 }
