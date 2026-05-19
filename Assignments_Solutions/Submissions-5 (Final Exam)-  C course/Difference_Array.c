@@ -1,0 +1,48 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+    int t;
+    scanf("%d", &t);
+    
+    while(t--)
+    {
+        int N;
+        scanf("%d",&N);
+        
+        int A[1005], B[1005], C[1005];
+        
+        for(int i=0; i<N; i++)
+        {
+            scanf("%d", &A[i]);
+            B[i] = A[i];
+        }
+        for (int i=0; i<N-1; i++)
+        {
+            for(int j=i+1; j<N; j++)
+            {
+                if(B[i]>B[j])
+                {
+                    int temp = B[i]; //swap kore felbo
+                    B[i] = B[j];
+                    B[j] = temp;
+                }
+            }
+        }
+        for(int i = 0; i<N; i++)
+        {
+            C[i] = abs(A[i] - B[i]);
+        }
+        for(int i=0; i<N; i++)
+        {
+            printf("%d", C[i]);
+            if(i<N-1)
+            {
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
